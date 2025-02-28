@@ -4,15 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CEPI - Blog</title>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
-        rel="stylesheet">
+    <title>Ajouter une Publication</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
 </head>
 
 <body class="body">
@@ -53,25 +49,32 @@
             </div>
         </nav>
     </header>
-    <main class="container">
-        <div class="search-sort d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
-            <input type="text" class="form-control search-bar w-100 w-md-50 mb-2 mb-md-0" placeholder="Rechercher...">
-            <div class="sort d-flex align-items-center gap-2 w-100 w-md-50">
-                <label for="sort" class="mb-0 w-25 text-end">Trier par :</label>
-                <select id="sort" class="form-select w-75 custom-select">
-                    <option value="recent">Récent</option>
-                    <option value="populaire">Populaire</option>
-                </select>
+    <div class="container mt-5">
+        <h2 class="mb-4 blog-title">Ajouter une Publication</h2>
+        <form id="postForm" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="title" class="form-label">Titre :</label>
+                <input type="text" id="title" class="form-control" required>
+                <div class="invalid-feedback">Veuillez entrer un titre.</div>
             </div>
-        </div>
-        <section class="blog-grid">
+            <div class="mb-3">
+                <label for="author" class="form-label">Auteur :</label>
+                <input type="text" id="author" class="form-control" required>
+                <div class="invalid-feedback">Veuillez entrer un auteur.</div>
+            </div>
+            <div class="mb-3">
+                <label for="content" class="form-label">Contenu :</label>
+                <textarea id="content" rows="4" class="form-control" required></textarea>
+                <div class="invalid-feedback">Veuillez entrer le contenu.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Ajouter la publication</button>
+        </form>
+    </div>
 
-                <div class="row">
-                    <!-- Aquí se insertarán dinámicamente las publicaciones -->
-                </div>
-       
-        </section>
-    </main>
+    <!-- Boîte de dialogue de confirmation -->
+    <div id="dialog-confirm" title="Confirmer l'ajout" style="display: none;">
+        <p>Voulez-vous vraiment ajouter cette publication ?</p>
+    </div>
     <footer class="footer text-center">
         <div class="social-icons">
             <i class="bi bi-facebook"></i> 
@@ -81,11 +84,6 @@
         <p class="footer-description">Centre d’Expertise et de Perfectionnement en Informatique</p>
         <p class="footer-description">2025</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-    
-</body>
-
-</html>
+    <script src="add_post.js"></script>

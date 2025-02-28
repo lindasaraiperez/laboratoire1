@@ -1,3 +1,122 @@
 {
-    
+  "posts": [
+    {
+      "id": "1",
+      "title": "Introduction à JSON Server",
+      "author": "Juanita Marquéz",
+      "date": "2025-02-26",
+      "content": "JSON Server est un outil très pratique pour les développeurs qui permet de créer une API REST complète et fonctionnelle en quelques minutes seulement. Cet outil se base sur un fichier JSON et offre une solution légère et rapide pour simuler un serveur backend sans avoir besoin d'une configuration complexe ou d'un développement intensif. La première étape pour utiliser JSON Server consiste à installer l'outil via npm (Node Package Manager) en exécutant la commande npm install -g json-server. Une fois installé, il suffit de créer un fichier JSON qui contiendra les données de notre API.Après avoir créé le fichier JSON, le serveur peut être démarré en exécutant la commande json-server --watch db.json. Par défaut, le serveur écoute sur le port 3000 et expose les données définies dans le fichier JSON à travers des routes RESTful. Par exemple, pour accéder aux données des articles, on utilise l'URL http://localhost:3000/posts. JSON Server supporte également les requêtes HTTP standard telles que GET, POST, PUT, PATCH et DELETE, ce qui permet de manipuler les données facilement. Il offre des options de filtrage, de pagination et de recherche pour simuler des fonctionnalités avancées d'une véritable API. En résumé, JSON Server est une solution simple et efficace pour prototyper rapidement des applications front-end en fournissant une API mock qui peut être utilisée pour le développement et les tests. C'est un excellent outil pour les développeurs qui souhaitent se concentrer sur la création d'interfaces utilisateur sans se soucier du backend."
+    },
+    {
+      "id": "2",
+      "title": "Pourquoi utiliser une API temporaire ?",
+      "author": "Juan Pérez",
+      "date": "2025-02-25",
+      "content": "Utiliser une API temporaire permet de tester rapidement une application frontend en attendant le backend. Une API temporaire est un excellent outil pour les développeurs, car elle permet de tester des fonctionnalités sans configurer un backend complet. Cela est particulièrement utile lors de la phase de développement frontend, où l’on a besoin de données pour afficher des interfaces dynamiques. Une API temporaire offre également une flexibilité en permettant d’ajuster rapidement les structures de données selon les besoins du projet. De plus, elle réduit le temps de mise en place d’un environnement de test, facilitant ainsi le travail collaboratif entre les équipes frontend et backend. Outils comme JSON Server ou MockAPI permettent de simuler des réponses d’API rapidement et efficacement."
+    },
+    {
+      "id": "3",
+      "title": "Les bases du développement web",
+      "author": "Sophie Lemoine",
+      "date": "2025-02-24",
+      "content": "Découvrez les fondamentaux du développement web avec HTML, CSS et JavaScript. Le développement web repose sur trois technologies fondamentales : HTML, CSS et JavaScript. HTML structure le contenu des pages, CSS gère leur apparence et JavaScript permet d’ajouter des interactions dynamiques. En complément, des frameworks comme React, Angular ou Vue.js facilitent la création d’applications modernes et performantes. Le développement web comprend aussi le backend, géré par des technologies comme Node.js, Django ou Spring Boot, qui permettent de gérer les bases de données et la logique métier. La maîtrise des bases du développement web est essentielle pour construire des applications fonctionnelles et ergonomiques."
+    },
+    {
+      "id": "4",
+      "title": "Créer une application avec Angular",
+      "author": "Paul Bernard",
+      "date": "2025-02-23",
+      "content": "Angular est un framework puissant permettant de créer des applications web dynamiques. Angular est un framework frontend développé par Google qui permet de créer des applications web dynamiques et performantes. Basé sur TypeScript, il offre une structure solide pour gérer les composants, les services et les routes. Pour démarrer, il suffit d’installer Angular CLI (npm install -g @angular/cli) et de créer un nouveau projet avec ng new nom-du-projet. Angular fonctionne avec un système de composants qui facilite la réutilisation du code et permet une meilleure organisation. Il prend également en charge l’injection de dépendances, la gestion des formulaires et les requêtes HTTP via le module HttpClient. Grâce à son architecture modulaire, Angular est idéal pour les applications évolutives et complexes."
+    },
+    {
+      "id": "5",
+      "title": "Introduction à TypeScript",
+      "author": "Lucie Morel",
+      "date": "2025-02-22",
+      "content": "TypeScript est un sur-ensemble de JavaScript qui apporte le typage statique et d'autres fonctionnalités utiles. TypeScript est un sur-ensemble de JavaScript qui introduit le typage statique, rendant le code plus robuste et facile à maintenir. Développé par Microsoft, il permet d’éviter de nombreuses erreurs courantes grâce à la détection des types dès la phase de développement. TypeScript est utilisé dans de nombreux frameworks modernes comme Angular, et il est compatible avec tout code JavaScript existant. Il prend en charge les interfaces, les classes et les génériques, améliorant ainsi l’organisation du code. Grâce à la compilation en JavaScript standard, il s’intègre parfaitement aux projets web et facilite la collaboration dans les équipes de développement."
+    },
+    {
+      "id": "6",
+      "title": "Les bases de Spring Boot",
+      "author": "Marc Dubois",
+      "date": "2025-02-21",
+      "content": "Spring Boot facilite le développement des applications Java en simplifiant la configuration. Spring Boot est un framework Java utilisé pour développer des applications backend rapidement et efficacement. Il simplifie la configuration des projets Spring en proposant une approche conventionnelle avec des dépendances préconfigurées. Grâce à Spring Boot, il est possible de créer des API REST en quelques lignes de code et d’intégrer facilement des bases de données avec Spring Data JPA. Il gère également l’injection de dépendances, la sécurité avec Spring Security et la documentation avec Swagger. En offrant un serveur embarqué, Spring Boot permet de tester et déployer des applications facilement. C’est un choix idéal pour les applications robustes et évolutives."
+    },
+    {
+      "id": "7",
+      "title": "Développement Backend avec Node.js",
+      "author": "Émilie Charpentier",
+      "date": "2025-02-20",
+      "content": "Node.js permet de créer des applications backend performantes en utilisant JavaScript. Node.js est une plateforme qui permet d’exécuter du JavaScript côté serveur. Grâce à son moteur V8, il offre des performances optimales pour les applications backend. Node.js est particulièrement adapté aux applications en temps réel, aux API REST et aux microservices. Il fonctionne avec un modèle asynchrone basé sur des événements, ce qui améliore la gestion des requêtes simultanées. Avec Express.js, un framework léger pour Node.js, il est possible de créer des routes et de gérer les requêtes HTTP facilement. Node.js prend également en charge les bases de données NoSQL comme MongoDB, rendant le développement flexible et rapide."
+    },
+    {
+      "id": "1740695878730",
+      "title": "La programmation actuel",
+      "author": "Linda Perez",
+      "date": "2025-02-27",
+      "content": "La programmation a évolué de manière significative au cours des dernières décennies, passant des premiers langages de bas niveau aux langages de haut niveau d'aujourd'hui. Actuellement, la programmation est omniprésente et joue un rôle crucial dans presque tous les aspects de la vie moderne. Les langages de programmation populaires incluent Python, JavaScript, Java, C++, et Swift, chacun ayant ses propres avantages et cas d'utilisation.\n\nPython est apprécié pour sa simplicité et sa lisibilité, ce qui en fait un excellent choix pour les débutants. Il est largement utilisé dans des domaines tels que l'intelligence artificielle, le développement web et l'automatisation. JavaScript, quant à lui, est essentiel pour le développement web, permettant de créer des sites interactifs et dynamiques. Il est souvent utilisé avec des frameworks comme React, Angular et Vue.jspour construire des applications web robustes.\n\nJava est un langage polyvalent utilisé dans le développement d'applications d'entreprise, d'applications mobiles Android et de systèmes embarqués. Sa portabilité et sa robustesse en font un choix populaire pour les grandes entreprises. C++, connu pour sa performance et son efficacité, est souvent utilisé dans le développement de jeux vidéo, les systèmes d'exploitation et les applications nécessitant des ressources intensives.\n\nSwift est le langage de programmation d'Apple, utilisé pour développer des applications iOS et macOS. Il est apprécié pour sa sécurité, sa rapidité et sa syntaxe moderne, permettant aux développeurs de créer des applications performantes et conviviales."
+    }
+  ],
+  "comentaires": [
+    {
+      "id": "1",
+      "idPost": "1",
+      "date": "2025-02-04",
+      "contenu": "Super introduction ! Merci pour cet article."
+    },
+    {
+      "id": "2",
+      "idPost": "1",
+      "date": "2025-02-09",
+      "contenu": "J'ai testé JSON Server et c'est vraiment top pour les devs frontend."
+    },
+    {
+      "id": "3",
+      "idPost": "2",
+      "date": "2025-02-04",
+      "contenu": "C'est pratique pour éviter d'attendre le backend !"
+    },
+    {
+      "id": "4",
+      "idPost": "2",
+      "date": "2025-02-12",
+      "contenu": "Merci pour ces explications claires."
+    },
+    {
+      "id": "5",
+      "idPost": "3",
+      "date": "2025-02-24",
+      "contenu": "Un bon rappel des bases, toujours utile !"
+    },
+    {
+      "id": "6",
+      "idPost": "4",
+      "date": "2025-02-14",
+      "contenu": "Angular est vraiment puissant mais la courbe d'apprentissage est un peu raide."
+    },
+    {
+      "id": "7",
+      "idPost": "5",
+      "date": "2025-02-04",
+      "contenu": "TypeScript m'a sauvé la vie sur plusieurs projets !"
+    },
+    {
+      "id": "8",
+      "postId": 6,
+      "date": "2025-02-21",
+      "content": "Spring Boot est mon framework backend préféré !"
+    },
+    {
+      "id": "9",
+      "postId": 7,
+      "date": "2025-02-20",
+      "content": "Node.js est parfait pour des applications performantes en temps réel."
+    },
+    {
+      "id": 1740708443481,
+      "idPost": "1",
+      "date": "2025-02-28",
+      "contenu": "J'adore JSON Server ! C'est un outil simple mais puissant qui permet de simuler une API REST en quelques minutes. Parfait pour le prototypage rapide et les tests sans prise de tête !"
+    }
+  ]
 }

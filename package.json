@@ -4,16 +4,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node node_modules/sass/sass.js styles.scss styles.css",
-    "sass2": "node node_modules/sass/sass.js post.sass post.css"
+    "sass": "node node_modules/sass/sass.js --quiet styles.scss styles.css"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "sass": "^1.84.0"
+    "sass": "^1.85.1"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "json-server": "^1.0.0-beta.3"
   }
 }
