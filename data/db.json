@@ -46,12 +46,12 @@
       "id": "7",
       "title": "Développement Backend avec Node.js",
       "author": "Émilie Charpentier",
-      "date": "2025-02-20",
+      "date": "2022-09-09",
       "content": "Node.js permet de créer des applications backend performantes en utilisant JavaScript. Node.js est une plateforme qui permet d’exécuter du JavaScript côté serveur. Grâce à son moteur V8, il offre des performances optimales pour les applications backend. Node.js est particulièrement adapté aux applications en temps réel, aux API REST et aux microservices. Il fonctionne avec un modèle asynchrone basé sur des événements, ce qui améliore la gestion des requêtes simultanées. Avec Express.js, un framework léger pour Node.js, il est possible de créer des routes et de gérer les requêtes HTTP facilement. Node.js prend également en charge les bases de données NoSQL comme MongoDB, rendant le développement flexible et rapide."
     },
     {
       "id": "1740695878730",
-      "title": "La programmation actuel",
+      "title": "La programmation actuelle",
       "author": "Linda Perez",
       "date": "2025-02-27",
       "content": "La programmation a évolué de manière significative au cours des dernières décennies, passant des premiers langages de bas niveau aux langages de haut niveau d'aujourd'hui. Actuellement, la programmation est omniprésente et joue un rôle crucial dans presque tous les aspects de la vie moderne. Les langages de programmation populaires incluent Python, JavaScript, Java, C++, et Swift, chacun ayant ses propres avantages et cas d'utilisation.\n\nPython est apprécié pour sa simplicité et sa lisibilité, ce qui en fait un excellent choix pour les débutants. Il est largement utilisé dans des domaines tels que l'intelligence artificielle, le développement web et l'automatisation. JavaScript, quant à lui, est essentiel pour le développement web, permettant de créer des sites interactifs et dynamiques. Il est souvent utilisé avec des frameworks comme React, Angular et Vue.jspour construire des applications web robustes.\n\nJava est un langage polyvalent utilisé dans le développement d'applications d'entreprise, d'applications mobiles Android et de systèmes embarqués. Sa portabilité et sa robustesse en font un choix populaire pour les grandes entreprises. C++, connu pour sa performance et son efficacité, est souvent utilisé dans le développement de jeux vidéo, les systèmes d'exploitation et les applications nécessitant des ressources intensives.\n\nSwift est le langage de programmation d'Apple, utilisé pour développer des applications iOS et macOS. Il est apprécié pour sa sécurité, sa rapidité et sa syntaxe moderne, permettant aux développeurs de créer des applications performantes et conviviales."
@@ -91,7 +91,7 @@
     {
       "id": "6",
       "idPost": "4",
-      "date": "2025-02-14",
+      "date": "2025-01-01",
       "contenu": "Angular est vraiment puissant mais la courbe d'apprentissage est un peu raide."
     },
     {
@@ -102,21 +102,21 @@
     },
     {
       "id": "8",
-      "postId": 6,
+      "postId": "6",
       "date": "2025-02-21",
-      "content": "Spring Boot est mon framework backend préféré !"
+      "contenu": "Spring Boot est mon framework backend préféré !"
     },
     {
-      "id": "9",
-      "postId": 7,
-      "date": "2025-02-20",
-      "content": "Node.js est parfait pour des applications performantes en temps réel."
-    },
-    {
-      "id": 1740708443481,
+      "id": "1740708443481",
       "idPost": "1",
       "date": "2025-02-28",
       "contenu": "J'adore JSON Server ! C'est un outil simple mais puissant qui permet de simuler une API REST en quelques minutes. Parfait pour le prototypage rapide et les tests sans prise de tête !"
+    },
+    {
+      "id": "1743112478612",
+      "idPost": "1",
+      "date": "2025-03-27",
+      "contenu": "J'adore JSON Server ! Merci beaucoup pour votre explication."
     }
   ]
 }

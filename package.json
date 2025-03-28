@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node node_modules/sass/sass.js --quiet styles.scss styles.css"
+    "sass": "node node_modules/sass/sass.js --quiet assets/styles/styles.scss assets/styles/styles.css",
+    "json-server": "json-server --watch data/db.json"
   },
   "author": "",
   "license": "ISC",
